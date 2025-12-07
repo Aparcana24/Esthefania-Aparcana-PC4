@@ -1,0 +1,32 @@
+---
+title: "Semana_10"
+author: "Aparcana"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+#MEDIDAS DE TENDENCIA CENTRAL
+
+#MEDIA
+
+```{r}
+mean(data$edad)
+```
+
+#MEDIANA
+
+```{r}
+mean(data$edad)
+```
+
+```{r}
+moda_Edad<-names(sort(table(data$edad),descreasing= TRUE))
+```
